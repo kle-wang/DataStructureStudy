@@ -79,7 +79,6 @@ Node deleteNode(Node root,E target){
             }
             free(tmp);
         }
-
     }
     return root;
 }
