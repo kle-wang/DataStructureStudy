@@ -6,7 +6,7 @@
 typedef int E;
 
 struct ListNode{
-    E element;
+    int element;
     struct ListNode * prev;
     struct ListNode * next;
 };
