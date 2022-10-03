@@ -27,6 +27,6 @@ int main(){
 
     auto C = add(A,B);
 
-    for(int i = C.size() - 1; i >= 0; i--) printf("%d", C[i]);
+    for(int i = C.size() - 1; i >= 0; i--) cout <<C[i];
 
 }

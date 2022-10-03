@@ -46,6 +46,6 @@ int main(){
         //A<B
         auto C = sub(B,A);
         cout << "-";
-        for(int i = C.size() - 1; i >= 0; i--) printf("%d", C[i]);
+        for(int i = C.size() - 1; i >= 0; i--) cout<< C[i];
     }
 }
